@@ -1,0 +1,11 @@
+.env
+models/*.pkl
+data/*.csv
+__pycache__/
+*.pyc
+.DS_Store
+
+data/
+data/DTSC_5582_Phase2_Datastets/
+
+models/

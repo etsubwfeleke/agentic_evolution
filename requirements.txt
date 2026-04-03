@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn==1.6.1
+joblib
+shap
+gradio
+google-genai
+python-dotenv
+requests
+matplotlib
+seaborn
+faiss-cpu
