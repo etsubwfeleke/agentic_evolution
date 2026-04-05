@@ -38,7 +38,51 @@ agentic_evolution/
   <img src="career_intelligence.png" alt="Centered image">
 </p>
 
+## Demo
 
+### How It Works
+
+Select a company from the dropdown and click **Analyze**. 
+The app returns four outputs in one view:
+
+1. **AI Research Areas** — pie chart of the company's 
+   patent portfolio by AI category
+2. **Patent Activity Over Time** — line chart showing 
+   how AI investment has grown year by year
+3. **Recommended Skills** — top skills to learn based 
+   on the company's research focus
+4. **Research Focus Over Time** — how priorities have 
+   shifted across AI categories
+
+### Screenshots
+
+**Microsoft Corp**
+![Microsoft Demo](docs/screenshots/microsoft_demo.png)
+
+
+### Sample Output
+
+For **Microsoft Corp** the system returns:  
+**Market Context**  
+**MICROSOFT CORP** is in the Technology sector. The model classifies expected growth as Low Growth, with an AI intensity score of 0.5607 on a 0 to 1 scale. The company has 1228 AI patents in this dataset, and the most recent record is from 2023. These estimates are based on historical patent behavior and should be used as one signal among many.  
+**Career Intelligence Report**  
+Here is your career intelligence report for AI opportunities at **MICROSOFT CORP**:  
+**MICROSOFT CORP**: AI Career Intelligence Report  
+**1. What kind of AI work is this company actually doing?**  
+Microsoft is deeply invested in developing core AI infrastructure and custom hardware (as evidenced by 55.9% hardware patents, like their Maia AI accelerator). This involves optimizing AI models for performance, efficiency, and scale, from edge devices to massive cloud deployments....  
+**2. What are the top 5 skills a job seeker should prioritize to get hired at this company?**  
+AI Hardware Optimization & Deployment (e.g., CUDA, ONNX, Quantization, Pruning): Critical for roles focusing on Microsoft's custom AI silicon and efficient model inference.....  
+**3. What role titles are most likely being hired for?**
+- Software Engineer, AI/ML
+- Applied Scientist (AI/ML, Deep Learning, NLP, Computer Vision)
+- Deep Learning Engineer
+- Machine Learning Engineer  
+
+**4. One specific career advice tip for this company.**  
+Demonstrate a strong understanding of how to operationalize and optimize AI models for real-world, large-scale product integration, particularly focusing on efficiency, cost, and responsible deployment within a cloud environment like Azure. Highlighting contributions to open-source projects relevant to Microsoft's ecosystem (e.g., ONNX Runtime) or showing projects that push the boundaries of efficient AI hardware/software co-design will be a significant advantage.
+
+### Running Locally
+To run the app locally, follow the setup instructions below. This will allow you to explore the career intelligence insights for any company included in the dataset.
 ## Setup Instructions
 
 ### 1) Clone the repo and create a Python environment
